@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Gestão Escolar - Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<div class="login-container">
+    <h2 class="title">Sistema de Gestão Escolar</h2>
+    <form action="/login" method="post" class="login-form">
+        <!-- Campo de usuário -->
+        <div class="form-group">
+            <label for="username">Usuário</label>
+            <input type="text" id="username" name="username" placeholder="Digite seu usuário" required>
+        </div>
+
+        <!-- Campo de senha -->
+        <div class="form-group">
+            <label for="password">Senha</label>
+            <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
+        </div>
+
+        <!-- Botão de login -->
+        <button type="submit" class="login-button">Login</button>
+    </form>
+</div>
+
+</body>
+
+</html>
